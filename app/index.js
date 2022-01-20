@@ -75,3 +75,31 @@
 
 // console.log(magical,power);
 
+//Arrow Functions
+
+// function blastoff(){
+//     console.log('3..2....1...blastoff');
+// }
+// blastoff();
+
+//Try an anonymous function using the setTimeout
+//setTimeout(function(){ console.log('3....2....1..blastoff'); }, 1000);
+
+//Rewrite using arrow function
+//setTimeout(()=>{ console.log('3....2....1..blastoff'); }, 1000);
+
+// const blastoff = ()=>{
+//     console.log('3...2...1..blastoff');
+// }
+// blastoff();
+
+//Arrow functions do not bind their own this they use the global this.
+
+// let points= [10,20,30];
+// let np =points.map(x=> x+1);
+// console.log(np);
+
+
+//Filter
+let grades = [60,70,80,90];
+console.log(grades.filter(x=> x>=80));
