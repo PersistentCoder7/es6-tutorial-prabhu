@@ -109,6 +109,16 @@
 // console.log(students,totalStudents);
 
 
-import {add, multiply} from './calculator';
+// import {add, multiply} from './calculator';
 
-console.log(add(1,2));
+// console.log(add(1,2));
+
+//OOP
+
+import  {Entity, Hobbit}  from './entity';
+
+let Merry = new Entity("Merry", 4.6);
+Merry.greet();
+
+let Frodo = new Hobbit('Frodo', 1.1);
+Frodo.greet();
