@@ -101,5 +101,14 @@
 
 
 //Filter
-let grades = [60,70,80,90];
-console.log(grades.filter(x=> x>=80));
+// let grades = [60,70,80,90];
+// console.log(grades.filter(x=> x>=80));
+
+// import { students,totalStudents } from "./student";
+
+// console.log(students,totalStudents);
+
+
+import {add, multiply} from './calculator';
+
+console.log(add(1,2));
